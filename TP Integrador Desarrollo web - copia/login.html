@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyecto">
+    <meta name="author" content="Daniela Lopez">
+    <title>Proyecto integrador Desarrollo Web</title>
+    <link rel="icon" type="imagenes/coin.svg" href="imagenes/coin.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="formulario.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Belanosima:wght@400;700&family=Caprasimo&family=Poppins:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <header>
+        <h1>QUE ESPERAS PARA TENER TU TARJETA DE CREDITO</h1>
+        <h2>completa el formulario para poder acceder </h2>
+    </header>
+
+    <div class="contenedor">
+        <form action="index.html" method="GET">
+            <label for="nombre">Nombre y apellido: </label>
+            <input type="text" id="nombre y apellido" name="nombre y apellido" placeholder="Escribí aquí tu nombre y apellido" required minlength="3">
+            <label for="mail">Email: </label>
+            <input type="email" id="mail" name="mail" placeholder="Escribí aquí tu mail" required>
+            <label for="pais">Provincia: </label>
+            <select name="provincia" id="provincia">
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="Catamarca">Catamarca</option>
+                <option value="Chaco">Chaco</option>
+                <option value="Chubut">Chubut</option>
+                <option value="Cordoba">Córdoba</option>
+                <option value="Corrientes">Corrientes</option>
+                <option value="Entre Rios">Entre Ríos</option>
+                <option value="Formosa">Formosa</option>
+                <option value="Jujuy">Jujuy</option>
+                <option value="La Pampa">La Pamapa</option>
+                <option value="La Rioja">La Rioja</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Misiones">Misiones</option>
+                <option value="Neuquen">Neuquén</option>
+                <option value="Rio Negro">Rio Negro</option>
+                <option value="Salta">Salta</option>
+                <option value="San Juan">San Juan</option>
+                <option value="San Luis">San Luis</option>
+                <option value="Santa Cruz">Santa Cruz</option>
+                <option value="Santa Fe">Santa Fe</option>
+                <option value="Santiago del Estero">Santiago del Estero</option>
+                <option value="Tierra del Fuego">Tierra del fuego</option>
+                <option value="Tucuman">Tucuman</option>
+            </select>
+            <label for="laboral">Categoria Laboral: </label>
+            <select name="Laboral" id="Laboral">
+              <option value="Relacion de dependencia">Relación de Dependencia</option>
+              <option value="Monotributista">Monotributista</option>
+              <option value="Autonomo">Autónomo</option>
+              <option value="Desempleado">Desempleado</option>
+              <option value="Otro">Otro</option>
+            </select>
+            <label for="comentario">Comentario: </label>
+            <textarea name="comentario" id="comentario" placeholder="Escribí aquí tu comentario"></textarea>
+
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </div>
+
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+
+
+</body>
+
+</html>
